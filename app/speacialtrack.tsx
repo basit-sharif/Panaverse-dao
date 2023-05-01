@@ -25,7 +25,7 @@ export default function Speacialtrack() {
                     </Flex>
                     <Heading size="h1" fontSize='1.4rem' cursor="pointer" mt={2} ml={2}>Web 3.0 and Metaverse Developers (WMD)</Heading>
                     <Box px={2} py={3}>
-                        <Button bg={"#E2E8F0"} rightIcon={<ArrowForwardIcon />}> <Link href="/Singlecourse">Learn more</Link> </Button>
+                        <Button bg={"#E2E8F0"} rightIcon={<ArrowForwardIcon />}> <Link aria-label='This will take to courses section' href="/Singlecourse">Learn more</Link> </Button>
                         <Button colorScheme="blue" ml={10}><a target="_blank" href='https://portal.piaic.org/signup'> Apply For</a></Button>
                     </Box>
                 </Flex>
@@ -35,7 +35,7 @@ export default function Speacialtrack() {
                     </Flex>
                     <Heading size="h1" fontSize='1.4rem' cursor="pointer" mt={2} ml={2}>Blockchain Computing (BCC)</Heading>
                     <Box px={2} py={3}>
-                        <Button rightIcon={<ArrowForwardIcon />}> <Link href="/Singlecourse">Learn more</Link> </Button>
+                        <Button rightIcon={<ArrowForwardIcon />}> <Link aria-label='This will take to courses section' href="/Singlecourse">Learn more</Link> </Button>
                         <Button colorScheme='whatsapp' ml={10}><a target="_blank" href='https://portal.piaic.org/signup'> Apply For</a></Button>
                     </Box>
                 </Flex>
@@ -45,7 +45,7 @@ export default function Speacialtrack() {
                     </Flex>
                     <Heading size="h1" fontSize='1.4rem' cursor="pointer" mt={2} ml={2}>Artificial Intelligence (AI) Developer </Heading>
                     <Box px={2} py={3}>
-                        <Button rightIcon={<ArrowForwardIcon />}> <Link href="/Singlecourse">Learn more</Link> </Button>
+                        <Button rightIcon={<ArrowForwardIcon />}> <Link aria-label='This will take to courses section' href="/Singlecourse">Learn more</Link> </Button>
                         <Button colorScheme="teal" ml={10}><a target="_blank" href='https://portal.piaic.org/signup'> Apply For</a></Button>
                     </Box>
                 </Flex>
@@ -57,7 +57,7 @@ export default function Speacialtrack() {
                     </Flex>
                     <Heading size="h1" fontSize='1.4rem' cursor="pointer" mt={2} ml={2}>Clound Native Computing (CNC) Developers</Heading>
                     <Box px={2} py={3}>
-                        <Button rightIcon={<ArrowForwardIcon />}> <Link href="/Singlecourse">Learn more</Link> </Button>
+                        <Button rightIcon={<ArrowForwardIcon />}> <Link aria-label='This will take to courses section' href="/Singlecourse">Learn more</Link> </Button>
                         <Button colorScheme='blue' ml={10}><a target="_blank" href='https://portal.piaic.org/signup'> Apply For</a></Button>
                     </Box>
                 </Flex>
@@ -67,7 +67,7 @@ export default function Speacialtrack() {
                     </Flex>
                     <Heading size="h1" fontSize='1.4rem' cursor="pointer" mt={2} ml={2}>Internet of Things (IOT) Developers</Heading>
                     <Box px={2} py={3}>
-                        <Button rightIcon={<ArrowForwardIcon />}> <Link href="/Singlecourse">Learn more</Link> </Button>
+                        <Button rightIcon={<ArrowForwardIcon />}> <Link aria-label='This will take to courses section' href="/Singlecourse">Learn more</Link> </Button>
                         <Button colorScheme='facebook' ml={10}><a target="_blank" href='https://portal.piaic.org/signup'> Apply For</a></Button>
                     </Box>
                 </Flex>

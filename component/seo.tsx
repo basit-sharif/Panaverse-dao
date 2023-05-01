@@ -1,17 +1,17 @@
 import Head from "next/head";
 
-const DOMAIN = "https://www.jimraptis.com";
+const DOMAIN = "https://panaverse-dao-nine.vercel.app/";
 const DEFAULT_OG_IMAGE =
-  "https://storage.googleapis.com/brandflow-bucket/personal/blog/portfolio-og.jpg";
+  "https://panaverse-dao-nine.vercel.app/logotransparent.png";
 
 export default function Seo({
   title = "Jim's Digital Space ",
   description = "Jim Raptis works on the intersection between user interface design and frontend development. He's passionate about design, coding, SaaS, and indie hacking.",
-  siteName = "Jim Raptis",
+  siteName = "Panaverse Dao",
   canonical = DOMAIN,
   ogImage = DEFAULT_OG_IMAGE,
   ogType = "website",
-  twitterHandle = "@d__raptis",
+  twitterHandle = "basitgggg",
 }) {
   return (
     <Head>

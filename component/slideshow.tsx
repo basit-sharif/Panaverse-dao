@@ -40,7 +40,7 @@ export default function () {
             <Zoom {...zoomInProperties}>
                 {images.map((each, index) => (
                     <div key={index} style={{ display: 'flex', justifyContent: 'center', width: "100%", height: "250px" }} >
-                        <img style={{ width: '75%', height: '100%', borderRadius: "1rem" }} src={each} />
+                        <img style={{ width: '75%', height: '100%', borderRadius: "1rem" }} alt='Web 3.0 and Metaverse' src={each} />
                     </div>
                 ))}
             </Zoom>

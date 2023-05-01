@@ -1,6 +1,6 @@
 "use client"
-import { MoonIcon, ArrowForwardIcon, SunIcon, HamburgerIcon, CloseIcon } from "@chakra-ui/icons"
-import { Box, Button, ChakraProvider, Flex, List, ListItem, Popover, PopoverContent, PopoverTrigger, Text, useColorMode, useColorModeValue } from "@chakra-ui/react"
+import { MoonIcon, ArrowForwardIcon, SunIcon, HamburgerIcon, CloseIcon, ChevronRightIcon } from "@chakra-ui/icons"
+import { Box, Button, ChakraProvider, Flex, List, ListItem, Popover, PopoverContent, PopoverTrigger, Text, useColorMode, useColorModeValue, Icon } from "@chakra-ui/react"
 import Image from "next/image"
 import Link from "next/link"
 import { useState } from "react"
@@ -118,7 +118,7 @@ export default function Navigation() {
           </Flex>
 
         </Flex>
-      </Flex>
+      </Flex >
 
       <Flex display={display} onMouseUp={() => { ChangeDisplay("none"); ChangeCloseIcon('none'); ChangeStraitIcon('flex') }} zIndex={10} borderRadius='1rem' w={{ base: '100%', md: '100%' }} margin='auto' marginTop="-3" p='2rem' flexDir='column' justifyContent='center' align='center' bg='#e9d8df' >
         <Button color='#d3102e' colorScheme='4a9f66' mt='2'><Link href="/about">About Dr.Arif Alvi</Link></Button>
@@ -128,7 +128,7 @@ export default function Navigation() {
         <Button color='#d3102e' colorScheme='4a9f66' mt='2'><a href="tel:+18475555555'">Help?</a></Button>
         <Button color='4a9f66' h={9} _hover={{ bgGradient: 'linear(to-r, #d3104e, pink.400)' }} borderRadius="2rem" mt='1.4rem' bgGradient='linear(to-r, #d3102e, pink.500)' rightIcon={<ArrowForwardIcon />}>Apply Now</Button>
       </Flex>
-    </ChakraProvider>
+    </ChakraProvider >
 
   )
 

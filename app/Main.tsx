@@ -57,12 +57,12 @@ export default function Main(canonical:any) {
 
                 <Flex justifyContent='center' display={{ base: 'none', lg: 'flex' }} w='90%' h='13%' mt="-8" >
                     <Flex cursor='pointer' justifyContent='center' alignItems='center' boxShadow='1px 1px 5px #622868' borderRadius='50%' w={14} h={14} bg='#e5cece' >
-                        <a href='#middle'><Downarrow /></a>
+                        <a aria-label='THis will redirect to middle' href='/#middle'><Downarrow /></a>
                     </Flex>
                 </Flex>
             </Flex>
             <Flex>
-                <a id="middle"></a>
+                <div id="middle" />
                 <Speacialtrack />
             </Flex>
             {/* <PanaverseComunity /> */}
