@@ -15,7 +15,7 @@ export default function Speacialtrack() {
     }, [])
 
     return (
-        <Flex w='100%' mt={{ base: '0', lg: '5rem' }} flexDir='column' alignItems='center' justifyContent='center' >
+        <Flex w='100%' overflow="hidden" mt={{ base: '0', lg: '5rem' }} flexDir='column' alignItems='center' justifyContent='center' >
             <Heading>Become a <span style={{ color: '#a71629' }}>Developer</span> of</Heading>
 
             <Flex data-aos="fade-left" flexDir={{ base: 'column', lg: "row" }} w='90%' mt='4rem' justifyContent={{ base: 'center', lg: 'space-between' }} alignItems="center">
@@ -72,7 +72,7 @@ export default function Speacialtrack() {
                     </Box>
                 </Flex>
             </Flex>
-            <Flex zIndex={1} w='90%' justifyContent='center' mt='4rem' borderRadius={8} >
+            <Flex p="1" zIndex={1} w='90%' justifyContent='center' mt='4rem' borderRadius={8} >
                 <Flex w={{base:'90%' , lg:"70%"}} flexDir='column' borderRadius={8} border='2px solid #E2E8F0' p={4} boxShadow="1px 1px 6px black">
                     <Heading textAlign='center' size='h1' fontSize='1.5rem'>Note </Heading>
                     <Text>After completing the first two (2) quaters of a single course called Metaverses.You have to choose a specialize track from i.e. Blockchain (BCC) , Clound Native Computing (CNC) , Artificial Intelligence (AI) , Internet Of Things (IOT).Which (special track) you will learn in the 3rd Quater and 4th Quater. After completing 3rd Quater you have to Earn to participate and to go to next quater is called Program in Nutshell.</Text>

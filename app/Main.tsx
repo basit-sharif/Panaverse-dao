@@ -31,7 +31,7 @@ export default function Main(canonical:any) {
 
             {/* mt={{ base: "25rem", md: '20rem', lg: "-3" }} */}
             <Flex alignItems='center' flexDir='column' w='100%' h={{ base: '56rem', lg: '35rem' }} >
-                <Flex alignItems='center' flexDir={{ base: 'column-reverse', md: 'column-reverse', lg: 'row' }} justifyContent={{ base: 'center', lg: 'space-between' }} w={{ base: '98%', lg: '90%' }} h='87%' >
+                <Flex alignItems='center' mt="-1rem" flexDir={{ base: 'column-reverse', md: 'column-reverse', lg: 'row' }} justifyContent={{ base: 'center', lg: 'space-between' }} w={{ base: '98%', lg: '90%' }} h='87%' >
                     {/* data-aos-offset="490" */}
                     <Flex flexDir='column' w={{ base: '90%', lg: '45%' }} >
                         <Heading>Let's <span style={{ color: '#a71629' }}>Lead</span> the Next Genration to Right way with Us</Heading>
